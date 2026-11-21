@@ -1,4 +1,7 @@
 ## Direct Conversion Receiver with signal demodulation in RP2040 ##
+
+![Schematic](DCRX_v_26_10/DCRX_26_10_sch.png]
+
 This is a low-cost small receiver which plugs into a PC and looks like a soundcard and a CAT interface on the USB port.
 The receiver hardware contains: 
 - LPF or BPF input filter
