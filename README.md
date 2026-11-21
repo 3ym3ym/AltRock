@@ -1,6 +1,7 @@
 ## Direct Conversion Receiver with signal demodulation in RP2040 ##
 
-![Schematic](DCRX_v_26_10/DCRX_26_10_sch.png]
+<img width="1331" height="717" alt="DCRX_26_10_sch" src="https://github.com/user-attachments/assets/a168704f-faf2-4d43-813e-8aba11104d0c" />
+
 
 This is a low-cost small receiver which plugs into a PC and looks like a soundcard and a CAT interface on the USB port.
 The receiver hardware contains: 
