@@ -1,7 +1,6 @@
 ## Direct Conversion Receiver with signal demodulation in RP2040 ##
 
-<img width="1331" height="717" alt="DCRX_26_10_sch" src="https://github.com/user-attachments/assets/a168704f-faf2-4d43-813e-8aba11104d0c" />
-
+<img width="1315" height="714" alt="DCRX_26_10_sch" src="https://github.com/user-attachments/assets/ceee417c-ffb5-467f-b9e0-f4c5393f8d0e" />
 
 This is a low-cost small receiver which plugs into a PC and looks like a soundcard and a CAT interface on the USB port.
 The receiver hardware contains: 
@@ -19,6 +18,11 @@ The input filter is not switched. It can be implemented as a single band BPF, or
 Schematic and PCB design was done in KiCad. Provided Gerber files can be uploaded to JLCPCB or another PCB manufacturing service.
 The PCB is shaped to fit into an Altoids tin. There is a 3D design for an insert to mount the board inside the box. You need to cut holes for the USB connector and your choice of the antenna connector. I punched a 1/4in hole for SMA and soldered it to the inside of the box.
 
+<img width="800" height="600" alt="rx_in_box" src="https://github.com/user-attachments/assets/20d10e8d-0997-4d06-b661-e0d1fe56ab5d" />
+
+
+
+# Firmware #
 The heart of the receiver is the firmware that runs on RP2040.
 - I2S interface to PCM1808 in master mode, generating necessary clocks
 - Demodulates SSB or AM from I/Q
